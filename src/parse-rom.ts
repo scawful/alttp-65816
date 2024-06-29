@@ -1,4 +1,4 @@
-function parseDisassembly(data) {
+export function parseDisassembly(data) {
   const lines = data.split('\n');
   const functions = [];
   let currentFunction = null;

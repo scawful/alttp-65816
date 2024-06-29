@@ -1,4 +1,4 @@
-function parseRamMap(data) {
+export function parseRamMap(data) {
   const lines = data.split('\n');
   const ramData = [];
   let currentAddress = null;
